@@ -5,9 +5,9 @@ package transientstore
 
 import (
 	fmt "fmt"
+	rwset "github.com/feng081212/fabric-protos-go/ledger/rwset"
+	peer "github.com/feng081212/fabric-protos-go/peer"
 	proto "github.com/golang/protobuf/proto"
-	rwset "github.com/hyperledger/fabric-protos-go/ledger/rwset"
-	peer "github.com/hyperledger/fabric-protos-go/peer"
 	math "math"
 )
 

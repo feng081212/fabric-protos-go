@@ -6,10 +6,10 @@ package gateway
 import (
 	context "context"
 	fmt "fmt"
+	common "github.com/feng081212/fabric-protos-go/common"
+	orderer "github.com/feng081212/fabric-protos-go/orderer"
+	peer "github.com/feng081212/fabric-protos-go/peer"
 	proto "github.com/golang/protobuf/proto"
-	common "github.com/hyperledger/fabric-protos-go/common"
-	orderer "github.com/hyperledger/fabric-protos-go/orderer"
-	peer "github.com/hyperledger/fabric-protos-go/peer"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

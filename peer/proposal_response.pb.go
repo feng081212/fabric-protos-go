@@ -5,9 +5,9 @@ package peer
 
 import (
 	fmt "fmt"
+	common "github.com/feng081212/fabric-protos-go/common"
 	proto "github.com/golang/protobuf/proto"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
-	common "github.com/hyperledger/fabric-protos-go/common"
 	math "math"
 )
 

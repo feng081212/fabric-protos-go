@@ -6,10 +6,10 @@ package discovery
 import (
 	context "context"
 	fmt "fmt"
+	gossip "github.com/feng081212/fabric-protos-go/gossip"
+	msp "github.com/feng081212/fabric-protos-go/msp"
+	peer "github.com/feng081212/fabric-protos-go/peer"
 	proto "github.com/golang/protobuf/proto"
-	gossip "github.com/hyperledger/fabric-protos-go/gossip"
-	msp "github.com/hyperledger/fabric-protos-go/msp"
-	peer "github.com/hyperledger/fabric-protos-go/peer"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"
